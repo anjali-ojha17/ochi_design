@@ -6,7 +6,7 @@
   font-family: "Founders Grotesk";
   src: url("/assets/Founders_Grotesk/FoundersGrotesk-Regular.otf")
     format("opentype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -14,7 +14,7 @@
   font-family: "Founders Grotesk";
   src: url("/assets/Founders_Grotesk/FoundersGrotesk-Bold.otf")
     format("opentype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -22,43 +22,8 @@
   font-family: "Founders Grotesk";
   src: url("/assets/Founders_Grotesk/FoundersGrotesk-Italic.otf")
     format("opentype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
-@font-face {
-  font-family: "Founders Grotesk";
-  src: url("/assets/Founders_Grotesk/FoundersGrotesk-BoldItalic.otf")
-    format("opentype");
-  font-weight: bold;
-  font-style: italic;
-}
-
-/* Additional weights/styles */
-@font-face {
-  font-family: "Founders Grotesk";
-  src: url("/assets/Founders_Grotesk/FoundersGrotesk-Light.otf")
-    format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Founders Grotesk";
-  src: url("/assets/Founders_Grotesk/FoundersGrotesk-Semibold.otf")
-    format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Founders Grotesk";
-  src: url("/assets/Founders_Grotesk/FoundersGrotesk-Medium.otf")
-    format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-body {
-  font-family: "Founders Grotesk", sans-serif;
-}
+/* Include other styles/weights as needed */
