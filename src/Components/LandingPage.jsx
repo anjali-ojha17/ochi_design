@@ -19,7 +19,7 @@ function LandingPage() {
                     initial={{ width: 0 }}
                     animate={{ width: "8vw" }}
                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                    className=" mr-5 w-[8vw] h-[5.5vw] rounded-md relative -top-[0.5vw] bg-red-500"
+                    className=" mr-5 w-[8vw] h-[5.5vw] rounded-md relative top-[1.7vw] bg-red-500"
                   >
                     <img
                       className="w-full h-full bg-cover"
@@ -28,7 +28,7 @@ function LandingPage() {
                     />
                   </motion.div>
                 )}
-                <h1 className="flex items-center uppercase text-[8vw] h-full leading-[8vw] tracking-tight font-founders-grotesk font-semibold">
+                <h1 className="flex items-center uppercase text-[8vw] h-full leading-[8vw] tracking-tight font-semibold">
                   {item}
                 </h1>
               </div>
